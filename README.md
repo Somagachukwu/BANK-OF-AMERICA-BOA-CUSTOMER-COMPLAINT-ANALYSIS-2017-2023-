@@ -1,3 +1,6 @@
+# BANK OF AMERICA (BOA) CUSTOMER COMPLAINT ANALYSIS (2017–2023)
+![image.alt](https://github.com/Somagachukwu/BANK-OF-AMERICA-BOA-CUSTOMER-COMPLAINT-ANALYSIS-2017-2023-/blob/main/BOA/BOA.png)
+
 # INTRODUCTION
 #### Bank of America (BoA) is one of the largest financial institutions in the world, headquartered in Charlotte, North Carolina. Founded in 1904, it has grown into a leading global bank serving individual consumers, small and mid-sized businesses, and large corporations with a broad range of banking, investing, asset management, and other financial and risk management products. BoA is known for its extensive network, with thousands of branches and ATMs throughout the U.S., as well as a robust online and mobile banking platform that serves millions of users.
 
@@ -47,8 +50,10 @@
 
 ## Creating a Date Table
 #### I observed that I needed a date table because I would be working a lot with dates and time. It is a best practice in data analysis to have a dedicated date table when you have to perform time-intelligence analysis. I achieved this by using DAX (Data Analysis Expressions).
+
 ## Building the Data Model
 #### While the fact, dimensions and date table have all been created, I closed Power Query and loaded my data ready to be modelled. I established relationships by connecting the primary keys on the dimensions table to the foreign keys on the facts table and this ended up in a Star Schema Data Model. Below is a pictorial representation of the data model:
+![image.alt](https://github.com/Somagachukwu/BANK-OF-AMERICA-BOA-CUSTOMER-COMPLAINT-ANALYSIS-2017-2023-/blob/main/BOA/BOA%20Modelling.png)
 
 ## LIMITATIONS
 - Missing Data
@@ -70,11 +75,16 @@
 * Timely Response by Submission Mode: The number of responses given based on how the complaint was submitted.
 * Complaint by Product: The number of complaints given for each product.
 
+![image.alt](https://github.com/Somagachukwu/BANK-OF-AMERICA-BOA-CUSTOMER-COMPLAINT-ANALYSIS-2017-2023-/blob/main/BOA/BOA%20pg%201.png)
+
 ## The second is a continuation of the key metrics, which include:
 * Complaints by State: These show how many complaints were recorded for each state.
 * Complaint by Months: The total number of complaints recorded by each month
 * Complaint by Year and Month: The total number of complaints recorded in each month in the different years contained in the dataset.
 * Submission mode: shows the total number of complaints recorded from each mode of submission.
+
+![image.alt](https://github.com/Somagachukwu/BANK-OF-AMERICA-BOA-CUSTOMER-COMPLAINT-ANALYSIS-2017-2023-/blob/main/BOA/BOA%20pg2.png)
+  
 
 ## Observation
 #### The following are my observations from exploring the dataset:
